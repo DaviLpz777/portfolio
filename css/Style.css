@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Boldonse&display=swap');
+body {
+  background-color: rgba(100, 148, 237, 0.479);
+}
+ .imagebar img {
+  width: 200px;
+  height: 200px;
+  padding-left: 30px;
+
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  opacity: 80%;
+  background: linear-gradient(to right, rgb(20, 72, 214), #2ecc71)
+}
+
+
+.imagebar img {
+  width: 100px;
+  height: 100px;
+  padding-left: 30px;
+  padding: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+  transition: 0.8s;
+  font-family: "Boldonse", system-ui;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-right: 30px;
+}
+.nav a:hover {
+  color: rgb(255, 255, 255);
+  transform: scale(1.5);
+}
+.nome {
+text-align: center;
+font-size:20px;
+font-family: "Boldonse", system-ui;
+margin-right: 220px;
+margin-top: 20px;
+color: rgb(6, 20, 59);
+}
+
+.container {
+  display: flex; 
+  margin-top: 100px;
+  align-items: center;
+  
+  
+}
+
+.imagem {
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin-left: 400px;
+  margin-top: 100px;
+  border: 5px solid rgb(20, 72, 214); 
+  border-style: outset;
+}
+
+.texto {
+  margin-left: 20px; 
+  font-size: 16px; 
+  max-width: 500px;
+  align-items: center;
+  border: 20px solid rgb(20, 72, 214);
+  border-style: outset;
+  border-radius: 10px;
+  box-sizing: content-box;
+padding: 15px;
+}
+.dados {
+  margin-left: 0px; 
+  margin-top: 180px;
+  font-size: 16px; 
+  max-width: 500px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.575);
+  border: 5px solid rgb(20, 72, 214);
+  border-style: outset;
+  border-radius: 10px;
+  box-sizing: content-box;
+  
+}
